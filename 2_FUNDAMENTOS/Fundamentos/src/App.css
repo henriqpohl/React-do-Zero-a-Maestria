@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.challenge-2 {
+  width: 20rem;
+  padding: 2rem;
+  margin: 0 auto;
+  border: 0.25rem solid #61dafb;
+}
