@@ -3,11 +3,20 @@ import { useState } from "react"
 const ListRender = () => {
   const [list] = useState(["Henrique", "Joao", "Maria"])
 
-  const [users] = useState([
-    { id: 1, name: "Henrique", age: 31 },
-    { id: 2, name: "Joao", age: 31 },
+  const [users, setUsers] = useState([
+    { id: 0, name: "Henrique", age: 31 },
+    { id: 1, name: "Joao", age: 31 },
     { id: 2, name: "Maria", age: 31 },
   ])
+
+  const deleteRandom = () => {
+    const randomNumber = Math.floor(Math.random() * 3)
+
+    setUsers((prevUsers) => {
+      return prevUsers.filter((user) => randomNumber !== user.id)
+    })
+
+  }
 
   return (
     <div>
@@ -25,6 +34,8 @@ const ListRender = () => {
           </li>
         ))}
       </ul>
+      <h2>Previous State</h2>
+      <button onClick={deleteRandom}>Delete random User</button>
     </div>
   )
 }
