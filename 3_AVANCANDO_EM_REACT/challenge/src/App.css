@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.green { color: #008000; font-weight: bold; }
+.red { color: #ff0000; font-weight: bold ;}
