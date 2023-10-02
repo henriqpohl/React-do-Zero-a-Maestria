@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "name": "Teste",
+      "price": "12",
+      "id": 4
+    },
+    {
+      "name": "Capa de Chuva",
+      "price": "50.50",
+      "id": 5
+    },
+    {
+      "name": "Celular",
+      "price": "100",
+      "id": 6
+    },
+    {
+      "name": "Suporte Microfone",
+      "price": "11",
+      "id": 7
+    },
+    {
+      "name": "Impressora",
+      "price": "200",
+      "id": 8
+    }  
+  ]
+}
