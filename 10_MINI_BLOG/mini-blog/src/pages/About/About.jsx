@@ -1,12 +1,24 @@
 // React
-import React from 'react'
+import React from "react"
 
 // CSS Module
 import styles from "../About/About.module.css"
+import { Link } from "react-router-dom"
 
 function About() {
   return (
-    <div>About</div>
+    <div className={styles.about}>
+      <h2>
+        Sobre o Mini <span>BLOG</span>
+      </h2>
+      <p>
+        Este projeto consiste em um blog feito com React no front-end e Firebase
+        no back-end
+      </p>
+      <Link to="/posts/create" className="btn">
+        Criar post
+      </Link>
+    </div>
   )
 }
 
