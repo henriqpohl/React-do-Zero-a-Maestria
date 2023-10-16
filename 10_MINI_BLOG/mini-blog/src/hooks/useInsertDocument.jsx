@@ -1,4 +1,7 @@
+// React Hooks
 import { useState, useEffect, useReducer } from "react"
+
+// DB - Google FireBase
 import { db } from "../firebase/config"
 import { collection, addDoc, Timestamp } from "firebase/firestore"
 
